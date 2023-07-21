@@ -18,6 +18,8 @@ TARGET_KERNEL_VERSION := 4.9
 # Inherit from Mi439 device
 $(call inherit-product, device/xiaomi/Mi439/device.mk)
 
+TARGET_BOOT_ANIMATION_RES := 720
+
 # Overlays
 PRODUCT_PACKAGES += \
     xiaomi_pine_overlay_lineage \
